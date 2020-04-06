@@ -1,0 +1,10 @@
+Tópicos:
+
+Subscriber:
+/motor/velocidade (std_msgs/Float32MultiArray): velocidades dos motores, em ordem horária do frontal esquerdo para o direito
+
+Publisher:
+/camera_baixo/image (sensor_msgs/Image): imagem RGB da câmera de baixo
+/camera_frontal/image (sensor_msgs/Image): imagem RGB da câmera frontal
+/imu/barometer (sensor_msgs/FluidPressure): leitura do barõmetro da IMU (não implementado)
+/imu/imu (sensor_msgs/Imu): leitura do acelerômetro e giroscópio
