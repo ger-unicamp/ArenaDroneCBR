@@ -6,5 +6,7 @@ Subscriber:
 Publisher:
 /camera_baixo/image (sensor_msgs/Image): imagem RGB da câmera de baixo
 /camera_frontal/image (sensor_msgs/Image): imagem RGB da câmera frontal
-/imu/barometer (sensor_msgs/FluidPressure): leitura do barõmetro da IMU (não implementado)
+/imu/barometer (sensor_msgs/FluidPressure): leitura do barômetro da IMU (não implementado)
 /imu/imu (sensor_msgs/Imu): leitura do acelerômetro e giroscópio
+/imu/altitude (std_msgs/Float32): altitude medida pelo barômetro
+/simu/pose_real (geometry_msgs/Pose): a pose real do drone
